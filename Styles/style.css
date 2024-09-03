@@ -179,18 +179,13 @@ header a:hover {
     padding: 0.5em;
 }
 
-.task-head img{
-    width: 2em;
-    height: 2em;
-    cursor: pointer;
-}
-
-.task-head p {
+.task-head a {
     background-color: var(--secondary);
     text-align: center;
     border-radius: 15px;
     padding: 0.5em;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .task-text {
