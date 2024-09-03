@@ -57,6 +57,82 @@
                 </form>
             </div>
 
+            <!-- Tasks -->
+             <div class="task-body">
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+                <div class="task-container">
+                    <div class="task-head">
+                        <p>Finished?</p>
+                        <img src="Images/edit.png" alt="edit icon">
+                    </div>
+                    <div class="task-text">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore aspernatur maiores porro iure ut deleniti distinctio consequuntur perspiciatis facere aliquid?</p>
+                    </div>
+                </div>
+             </div>
+
         </div>
 
     </div>
