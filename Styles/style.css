@@ -1,0 +1,79 @@
+:root {
+    --background: #ffffff;
+    --primary: #a4aefd;
+    --secondary: #b6bffe;
+    --tertiary: #c3cafc;
+    --black: #424242;
+    --white: #f0f0f0;
+}
+
+* {
+    color: var(--black);
+}
+
+body {
+    height: 100vh;
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+  }
+
+    /* NAVBAR */
+.header-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--primary);
+}
+
+.header-name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.header-name p {
+    padding-left: 1em;
+    font-size: larger;
+}
+
+#header-logo {
+    width: 3em;
+    height: 3em;
+}
+
+#header-login {
+    align-self: center;
+    justify-self: center;
+    margin-left: auto;
+    font-size: larger;
+    text-decoration: none;
+    padding: 1.5em;
+    cursor: pointer;
+}
+
+header a:hover {
+    background-color: var(--secondary);
+}
+
+    /* SIDE BAR */
+.sideBar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--secondary);
+    width: 15%;
+    height: 90%;
+    font-size: xx-large;
+}
+
+.sideBar-text {
+    margin: 1em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#sideBar-addTask {
+    margin-top: auto;
+}
