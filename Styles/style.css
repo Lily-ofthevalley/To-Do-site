@@ -57,6 +57,22 @@ header a:hover {
     background-color: var(--secondary);
 }
 
+    /* BODY */
+.ToDo-body {
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    width: 100%;
+}
+
+.content-container {
+    height: 100%;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
     /* SIDE BAR */
 .sideBar-container {
     display: flex;
@@ -64,7 +80,7 @@ header a:hover {
     align-items: center;
     background-color: var(--secondary);
     width: 15%;
-    height: 90%;
+    height: 100%;
     font-size: xx-large;
 }
 
@@ -76,4 +92,54 @@ header a:hover {
 
 #sideBar-addTask {
     margin-top: auto;
+}
+
+    /* ADD TASK */
+.addTask-container {
+    width: 40%;
+    height: 50%;
+    background-color: var(--tertiary);
+    z-index: 10;
+    border-radius: 15px;
+    display: none;
+}
+
+.addTask-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3em;
+}
+
+.addTask-write {
+    width: 70%;
+    height: 200px;
+}
+
+.addTask-send {
+    font-size: large;
+    margin: 1em;
+}
+
+    /* LOGIN/SIGN-UP */
+.login-container, .signUp-container {
+    padding: 3em;
+    background-color: var(--tertiary);
+    z-index: 10;
+    border-radius: 15px;
+    display: none;
+}
+
+.login-container {
+    padding-bottom: 1em;
+}
+
+.login-container p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-form input, .signUp-form input {
+    margin: 0.5em;
 }
