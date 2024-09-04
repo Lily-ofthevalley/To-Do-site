@@ -32,7 +32,11 @@ session_start();
         <div class="sideBar-container">
                 <a class="sideBar-text" id="sideBar-ToDo" href="index.php?state=">To-Do</a>
                 <a class="sideBar-text" id="sideBar-finished" href="index.php?state=yes">Finished</a>
-                <p class="sideBar-text" id="sideBar-addTask">Add Task</p>
+                <?php
+                    if(isset($_SESSION["user"])) {
+                        require_once "inclusions/addTaskBtn.inc.php";
+                    } 
+                ?>
         </div>
 
         <div class="content-container">
