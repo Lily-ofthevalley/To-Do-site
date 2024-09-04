@@ -48,5 +48,15 @@ function dbAddUser($username, $password)
     ///// TASK /////
     ////////////////
 
+    function dbAddTask($task, $idUser)
+{
+    global $pdo;
+
+    // Commit to database
+    $stmt = $pdo->prepare("INSERT INTO Task(text, idUser) VALUES (?, ?)");
+    $stmt->bindParam(1, $task);
+    $stmt->bindParam(2, $idUser);
+    $stmt->execute();
+}
 
 
