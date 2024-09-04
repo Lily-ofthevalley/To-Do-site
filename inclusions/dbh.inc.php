@@ -27,7 +27,21 @@ function dbConnect()
     ///// USER /////
     ////////////////
 
+/**
+ * Insert a new user into the database.
+ */
+function dbAddUser($username, $password)
+{
+    global $pdo;
 
+    $hashed_pw = password_hash($password, 0);
+
+    // Commit to database
+    $stmt = $pdo->prepare("INSERT INTO User(username, password) VALUES (?, ?)");
+    $stmt->bindParam(1, $username);
+    $stmt->bindParam(2, $hashed_pw);
+    $stmt->execute();
+}
 
 
     ////////////////
@@ -36,4 +50,3 @@ function dbConnect()
 
 
 
-    
