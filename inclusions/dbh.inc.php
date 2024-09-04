@@ -59,4 +59,14 @@ function dbAddUser($username, $password)
     $stmt->execute();
 }
 
+    function dbTaskUpdate($idTask, $finished)
+{
+    global $pdo;
+    
+    $sql = "UPDATE Task SET finished = :finished WHERE idTask = :idTask";
+    $stmt = $pdo->prepare($sql);
+    $stmt->bindParam(':finished', $finished);
+    $stmt->bindParam(':idTask', $idTask);
+    $stmt->execute();
+}
 

@@ -30,15 +30,15 @@ session_start();
     <div class="ToDo-body">
         <!-- Side bar -->
         <div class="sideBar-container">
-                <a class="sideBar-text" id="sideBar-ToDo" href="">To-Do</a>
-                <a class="sideBar-text" id="sideBar-finished" href="">Finished</a>
+                <a class="sideBar-text" id="sideBar-ToDo" href="index.php?state=">To-Do</a>
+                <a class="sideBar-text" id="sideBar-finished" href="index.php?state=yes">Finished</a>
                 <p class="sideBar-text" id="sideBar-addTask">Add Task</p>
         </div>
 
         <div class="content-container">
             <!-- Hidden things -->
             <div class="addTask-container">
-                <form action="" method="POST" class="addTask-form">
+                <form action="responses/addTaskResponse" method="POST" class="addTask-form">
                     <textarea class="addTask-write" type="text" name="task" value="" placeholder="Write task"></textarea><br>
                     <input class="addTask-send" type="submit" name="button" value="Add task">
                 </form>
