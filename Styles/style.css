@@ -44,7 +44,7 @@ body {
     height: 3em;
 }
 
-#header-login {
+#header-login, #header-logout {
     align-self: center;
     justify-self: center;
     margin-left: auto;
