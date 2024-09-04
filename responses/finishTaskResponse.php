@@ -7,7 +7,7 @@
 
         dbTaskUpdate($idTask, $finished); // Call the function
 
-        header("Location: ../index.php"); //sends user back
+        header("Location: ../index.php?state="); //sends user back
         exit();
     } catch (Exception $e) { //checks and gives errors
         die("Query failed". $e->getMessage());

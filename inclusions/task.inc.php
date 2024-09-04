@@ -8,6 +8,7 @@
         $sqlTask = "SELECT idTask, text, finished, idUser FROM Task WHERE idUser = :idUser AND finished = :finished"; //Selects the task data
         $taskStmt = $pdo->prepare($sqlTask);
         $taskStmt->execute([':idUser' => $idUser, ':finished' => $finished]);
+
     } catch (PDOException $e) { //checks and gives errors
         echo "Error: " . $e->getMessage();
         die();
@@ -19,7 +20,7 @@
             if($row["finished"] == ""){
             echo    '<div class="task-container">
                         <div class="task-head">
-                            <a href="responses/finishTaskResponse.php?id=' . $row["idTask"] . '">Finished</a>
+                            <a href="responses/finishTaskResponse.php?id=' . $row["idTask"] . '">Finished?</a>
                         </div>
                         <div class="task-text">
                             <p>' . htmlspecialchars($row["text"], ENT_QUOTES, 'UTF-8') . '</p>

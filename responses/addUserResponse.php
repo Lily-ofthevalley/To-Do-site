@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { //checks if the user got here legit
 
         dbAddUser($username, $password); // Call the function
 
-        header("Location: ../index.php"); //sends user back
+        header("Location: ../index.php?state="); //sends user back
         exit();
     } catch (Exception $e) { //checks and gives errors
         die("Query failed". $e->getMessage());
@@ -17,5 +17,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") { //checks if the user got here legit
 }
 
 else {
-    header("location: ../index.php"); //sends user back
+    header("location: ../index.php?state="); //sends user back
 }

@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Verify the entered password against the stored hashed password
         if (password_verify($pwd, $row["password"])) {
             $_SESSION["user"] = array("username" => $row["username"], "id" => $row["idUser"]);
-            header("Location: ../index.php");
+            header("Location: ../index.php?state=");
             exit();
         } else {
             header("Location: ../index.php?error=incorrect_password");
